@@ -84,7 +84,7 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 # Comentarios sobre el Dataset
 
-#### 1 Origen del Dataset:
+#### 1. Origen del Dataset:
    - El dataset utilizado en este proyecto, denominado "Data-Eleccion-ONU-Cuba", fue adquirido a través de la aplicación de técnicas de web scraping utilizando la herramienta Octoparse 8. La fuente primaria de los datos es la red social Twitter.
 
 ###### 1.1 Selección de la Plataforma:
@@ -102,7 +102,7 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 ###### 1.5. Proceso Ético y Legal:
    - Es importante destacar que el proceso de web scraping se llevó a cabo de manera ética y legal, respetando los términos de servicio de Twitter y las leyes de privacidad aplicables.
 
-#### 2 Descripción de las Columnas:
+#### 2. Descripción de las Columnas:
    - Titulo = nombre de usuario
    - Imagen = imagen_nombreusuario
    - css1dbjc4n_URL = url del usuario
@@ -114,13 +114,27 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
    - css901oao3 = cantidad de reposteo
    - css4rbku54 = Cantidad de visualización (vistas)
 
-#### 3 Calidad de los Datos:
-   - Evaluar la calidad general de los datos, destacando si hubo problemas significativos con valores nulos, duplicados, o inconsistencias.
+#### 3. Calidad de los Datos:
+   - La combinación de estos procesos aseguró que el dataset resultante estuviera libre de problemas significativos, como valores nulos, duplicados o inconsistencias, proporcionando una base sólida para el análisis subsiguiente de sentimiento.
+###### 3.1 Verificación, Corrección y Eliminación de Columnas:
+   - Se llevó a cabo una revisión detallada de las columnas presentes en el dataset. Aquellas que no aportaban información relevante para el análisis de sentimiento fueron eliminadas, simplificando así la estructura del dataset.
 
-#### 4 Desafíos Encontrados:
+###### 3.2 Eliminación de Valores Nulos Existente:
+   - Se identificaron y eliminaron valores nulos en las columnas pertinentes. Este paso fue crucial para garantizar la integridad y coherencia de los datos utilizados en el análisis.
+
+###### 3.3 Valores Duplicados:
+   - Se implementó un proceso para identificar y eliminar valores duplicados en el dataset. Esto contribuyó a evitar sesgos en el análisis y garantizar la representatividad de las muestras.
+
+###### 3.4 Rellenar Valores Nulos Existente por Fila-Columna:
+   - Cuando fue necesario, se aplicaron técnicas de imputación para rellenar valores nulos de manera estratégica, evitando la pérdida de información valiosa.
+
+###### 3.5 Conversión de Cantidad - Visualización en Mil a Números Enteros:
+   - Se llevó a cabo la conversión adecuada de las cantidades expresadas en visualizaciones en mil a números enteros, facilitando así la interpretación y comparación de los datos.
+
+#### 4. Desafíos Encontrados:
    - Identificar y discutir los desafíos encontrados durante el análisis del dataset, como la presencia de datos ruidosos o la necesidad de procesamiento adicional.
 
-#### 5 Tamaño del Dataset:
+#### 5. Tamaño del Dataset:
    - Mencionar la cantidad total de registros en el dataset y si este tamaño fue considerado adecuado para el análisis de sentimiento.
 
 # Datos Utilizados
