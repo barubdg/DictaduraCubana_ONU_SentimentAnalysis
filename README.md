@@ -8,7 +8,7 @@ Estudiante en ingenieria de Software (UTP)
 
 <img src="https://github.com/barubdg/DictaduraCubana_ONU_SentimentAnalysis/blob/main/img-post-twitter.png?raw=true" alt="Post Twitter: Cuba en el Consejo de Derechos Humanos">
 Nota. Publicado por UHN Plus, 10 de octubre de 2023, escandalo de cuba por elección del Consejo de Derechos Humanos de la ONU. https://twitter.com/UHN_Plus/status/1711776517242470818
----
+--------
 
 **La elección de Cuba como miembro del Consejo de Derechos Humanos de la ONU es un problema por las siguientes razones:**
 
