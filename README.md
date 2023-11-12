@@ -116,3 +116,7 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 #### 2.5 Limitaciones de los Datos:
    - Reconocer y discutir las limitaciones inherentes al dataset utilizado, ya sea en términos de representatividad, sesgos, o cualquier otro factor que pueda afectar la validez de los resultados.
+
+# Resultado e Interpretaciones
+
+# Conclusiones
