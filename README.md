@@ -103,8 +103,16 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
    - Es importante destacar que el proceso de web scraping se llevó a cabo de manera ética y legal, respetando los términos de servicio de Twitter y las leyes de privacidad aplicables.
 
 #### 2 Descripción de las Columnas:
-   - Proporcionar una descripción detallada de cada columna en el dataset, incluyendo su nombre, tipo de datos, y significado.
-   - Señalar si alguna columna específica fue crucial para el análisis de sentimiento.
+   - Titulo = nombre de usuario
+   - Imagen = imagen_nombreusuario
+   - css1dbjc4n_URL = url del usuario
+   - css901oao = nick de usuario
+   - css4rbku5_URL = enlace del reposteo de usuario
+   - css4rbku5 = Fecha de respuesta
+   - css901oao1 = comentario de usuario
+   - css4rbku5_URL2 = Enlace Cantidad de visualización
+   - css901oao3 = cantidad de reposteo
+   - css4rbku54 = Cantidad de visualización (vistas)
 
 #### 3 Calidad de los Datos:
    - Evaluar la calidad general de los datos, destacando si hubo problemas significativos con valores nulos, duplicados, o inconsistencias.
