@@ -64,7 +64,7 @@ Google Colaboratory es una plataforma de computación en la nube gratuita que pe
 
 2. **OctoParse8:**
 
-OctoParse8 es una biblioteca de Python que permite a los usuarios acceder a datos de Twitter. Es una herramienta muy útil para el análisis de sentimientos, ya que permite a los usuarios extraer datos de Twitter de forma rápida y sencilla.
+OctoParse8 es un web scraper. Es una herramienta muy útil para el análisis de sentimientos, ya que permite a los usuarios extraer datos de Twitter de forma rápida y sencilla.
 
 3. **Twitter:**
 
