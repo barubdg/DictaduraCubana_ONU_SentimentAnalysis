@@ -82,8 +82,6 @@ Excel es una hoja de cálculo popular que se puede utilizar para almacenar y man
 
 GitHub es un servicio de alojamiento de código fuente que le permite almacenar y compartir su código con otros. GitHub es una buena opción para guardar su proyecto de análisis de sentimientos, ya que le permite colaborar con otros y hacer un seguimiento de los cambios en su código.
 
-Entendido, a continuación te proporciono cómo podrías abordar esos puntos en tu proyecto:
-
 # Comentarios sobre el Dataset
 
 #### 1.1 Origen del Dataset:
@@ -118,5 +116,3 @@ Entendido, a continuación te proporciono cómo podrías abordar esos puntos en 
 
 #### 2.5 Limitaciones de los Datos:
    - Reconocer y discutir las limitaciones inherentes al dataset utilizado, ya sea en términos de representatividad, sesgos, o cualquier otro factor que pueda afectar la validez de los resultados.
-
-Estos comentarios sobre el dataset y detalles sobre los datos utilizados proporcionarán una base sólida para entender la calidad y la relevancia de la información en tu proyecto de análisis de sentimiento.
