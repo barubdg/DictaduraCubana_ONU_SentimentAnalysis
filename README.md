@@ -60,11 +60,12 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 1. **Google Colaboratory:**
 
+Google Colaboratory es una plataforma de computación en la nube gratuita que permite a los usuarios crear y ejecutar código de Python en un entorno web. Es una herramienta muy útil para el análisis de sentimientos, ya que permite a los usuarios acceder a grandes cantidades de datos de texto sin tener que instalar ningún software en su propio ordenador.
+
 2. **OctoParse8:**
+
+OctoParse8 es una biblioteca de Python que permite a los usuarios acceder a datos de Twitter. Es una herramienta muy útil para el análisis de sentimientos, ya que permite a los usuarios extraer datos de Twitter de forma rápida y sencilla.
 
 3. **Twitter:**
 
-4. **Excel:**
-
-5. **Python:**
-
+Twitter es una red social en la que los usuarios pueden publicar mensajes de texto cortos, conocidos como "tweets". Es una fuente de datos muy rica para el análisis de sentimientos, ya que los usuarios a menudo expresan sus opiniones y emociones en sus tweets.
