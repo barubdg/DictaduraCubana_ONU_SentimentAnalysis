@@ -1,6 +1,7 @@
 # Autor
 
 Baruch Benjamin Dámazo Gálvez
+
 Estudiante en ingenieria de Software (UTP)
 
 # Descripción de la problemática
