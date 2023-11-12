@@ -87,20 +87,20 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 #### 1 Origen del Dataset:
    - El dataset utilizado en este proyecto, denominado "Data-Eleccion-ONU-Cuba", fue adquirido a través de la aplicación de técnicas de web scraping utilizando la herramienta Octoparse 8. La fuente primaria de los datos es la red social Twitter.
 
-##### 1.1 Selección de la Plataforma:
-   - Twitter fue elegido como la plataforma principal para la recolección de datos debido a su relevancia en la difusión de información y opiniones.
+###### 1.1 Selección de la Plataforma:
+       - Twitter fue elegido como la plataforma principal para la recolección de datos debido a su relevancia en la difusión de información y opiniones.
 
-##### 1.2. Configuración de Octoparse 8:
-   - Se utilizó Octoparse 8, una herramienta especializada en web scraping, para automatizar el proceso de extracción de datos. Esta herramienta permitió definir patrones de extracción específicos para capturar información relevante de los tweets.
+###### 1.2. Configuración de Octoparse 8:
+       - Se utilizó Octoparse 8, una herramienta especializada en web scraping, para automatizar el proceso de extracción de datos. Esta herramienta permitió definir patrones de extracción específicos para capturar información relevante de los tweets.
 
-##### 1.3. Definición de Criterios de Búsqueda:
-   - Se establecieron criterios de búsqueda específicos, como hashtags, palabras clave, o perfiles relevantes, para focalizar la obtención de datos en el tema de interés: elecciones en Cuba.
+###### 1.3. Definición de Criterios de Búsqueda:
+       - Se establecieron criterios de búsqueda específicos, como hashtags, palabras clave, o perfiles relevantes, para focalizar la obtención de datos en el tema de interés: elecciones en Cuba.
 
-##### 1.4. Extracción de Datos:
-   - Octoparse 8 fue configurado para navegar por la plataforma Twitter, recopilando tweets relacionados con el tema definido en los criterios de búsqueda. Se extrajeron datos como el contenido del tweet, la fecha de publicación, y otros metadatos relevantes.
+###### 1.4. Extracción de Datos:
+       - Octoparse 8 fue configurado para navegar por la plataforma Twitter, recopilando tweets relacionados con el tema definido en los criterios de búsqueda. Se extrajeron datos como el contenido del tweet, la fecha de publicación, y otros metadatos relevantes.
 
-##### 1.5. Proceso Ético y Legal:
-   - Es importante destacar que el proceso de web scraping se llevó a cabo de manera ética y legal, respetando los términos de servicio de Twitter y las leyes de privacidad aplicables.
+###### 1.5. Proceso Ético y Legal:
+       - Es importante destacar que el proceso de web scraping se llevó a cabo de manera ética y legal, respetando los términos de servicio de Twitter y las leyes de privacidad aplicables.
 
 #### 2 Descripción de las Columnas:
    - Proporcionar una descripción detallada de cada columna en el dataset, incluyendo su nombre, tipo de datos, y significado.
