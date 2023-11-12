@@ -11,3 +11,5 @@ La elección de Cuba como miembro del Consejo de Derechos Humanos de la ONU es u
 <br><br>
 *Es importante que la comunidad internacional exprese su rechazo a esta decisión.* La elección de Cuba es un mensaje equivocado a los países que violan los derechos humanos. Les dice que pueden seguir cometiendo abusos sin consecuencias. Es importante que la comunidad internacional exprese su rechazo a esta decisión y haga un llamamiento a Cuba para que libere a todos los presos políticos y respete los derechos humanos de su pueblo.
 
+# Objetivos
+•	Identificar el sentimiento general de los usuarios de Twitter sobre la noticia. ¿Son los usuarios positivos, negativos o neutrales sobre la elección de Cuba?
