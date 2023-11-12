@@ -81,3 +81,42 @@ Excel es una hoja de cálculo popular que se puede utilizar para almacenar y man
 6. **GitHub:**
 
 GitHub es un servicio de alojamiento de código fuente que le permite almacenar y compartir su código con otros. GitHub es una buena opción para guardar su proyecto de análisis de sentimientos, ya que le permite colaborar con otros y hacer un seguimiento de los cambios en su código.
+
+Entendido, a continuación te proporciono cómo podrías abordar esos puntos en tu proyecto:
+
+# Comentarios sobre el Dataset
+
+#### 1.1 Origen del Dataset:
+   - Indicar la fuente de donde se obtuvo el dataset, ya sea a través de la recolección directa, descarga de repositorios en línea, u otras fuentes.
+
+#### 1.2 Descripción de las Columnas:
+   - Proporcionar una descripción detallada de cada columna en el dataset, incluyendo su nombre, tipo de datos, y significado.
+   - Señalar si alguna columna específica fue crucial para el análisis de sentimiento.
+
+#### 1.3 Calidad de los Datos:
+   - Evaluar la calidad general de los datos, destacando si hubo problemas significativos con valores nulos, duplicados, o inconsistencias.
+
+#### 1.4 Desafíos Encontrados:
+   - Identificar y discutir los desafíos encontrados durante el análisis del dataset, como la presencia de datos ruidosos o la necesidad de procesamiento adicional.
+
+#### 1.5 Tamaño del Dataset:
+   - Mencionar la cantidad total de registros en el dataset y si este tamaño fue considerado adecuado para el análisis de sentimiento.
+
+# Datos Utilizados
+
+#### 2.1 Selección de Datos Relevantes:
+   - Explicar la lógica detrás de la selección de las columnas específicas utilizadas para el análisis de sentimiento.
+
+#### 2.2 Razones para la Elección del Dataset:
+   - Justificar la elección del dataset en relación con el problema específico que se está abordando y cómo se alinea con los objetivos del proyecto.
+
+#### 2.3 Preprocesamiento de Datos:
+   - Detallar cualquier preprocesamiento aplicado a los datos antes de realizar el análisis de sentimiento, como limpieza de texto, tokenización, o conversión de formatos.
+
+#### 2.4 Inclusión de Variables Adicionales:
+   - Si se incluyeron variables adicionales o características específicas para mejorar el análisis de sentimiento, proporcionar información sobre estas adiciones y su impacto potencial.
+
+#### 2.5 Limitaciones de los Datos:
+   - Reconocer y discutir las limitaciones inherentes al dataset utilizado, ya sea en términos de representatividad, sesgos, o cualquier otro factor que pueda afectar la validez de los resultados.
+
+Estos comentarios sobre el dataset y detalles sobre los datos utilizados proporcionarán una base sólida para entender la calidad y la relevancia de la información en tu proyecto de análisis de sentimiento.
