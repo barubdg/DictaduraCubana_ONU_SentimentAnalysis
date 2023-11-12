@@ -132,7 +132,25 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
    - Se llevó a cabo la conversión adecuada de las cantidades expresadas en visualizaciones en mil a números enteros, facilitando así la interpretación y comparación de los datos.
 
 #### 4. Desafíos Encontrados:
-   - Identificar y discutir los desafíos encontrados durante el análisis del dataset, como la presencia de datos ruidosos o la necesidad de procesamiento adicional.
+   - Durante el proceso de construcción del dataset y el análisis de sentimiento, se enfrentaron varios desafíos que requirieron atención y resolución. Aquí se destacan los principales:
+
+###### 4.1 Limpieza y Tokenización:
+
+   - **Desafío:** La fase de preprocesamiento, específicamente la limpieza y tokenización del texto, presentó dificultades debido a la presencia de caracteres especiales, emojis o formatos no estándar en los tweets.
+
+   - **Solución:** Se implementaron técnicas avanzadas de limpieza de texto y tokenización para abordar estos desafíos. Se utilizaron expresiones regulares y bibliotecas especializadas para manejar eficazmente la diversidad de formatos presentes en los datos.
+
+###### 4.2 Correlación entre Nick_Usuario:
+
+   - **Desafío:** La identificación y análisis de la correlación entre los nicks de usuario en los tweets presentó desafíos debido a la variabilidad en la forma en que los usuarios expresan sus opiniones y la posible presencia de cuentas falsas o bots.
+
+   - **Solución:** Se llevó a cabo un análisis detallado de la variabilidad y autenticidad de los nicks de usuario. Se aplicaron técnicas de detección de anomalías para identificar posibles cuentas no auténticas, y se ajustó el enfoque de análisis de sentimiento para considerar estas variabilidades.
+
+###### 4.3 Submuestreo (Undersampling):
+
+   - **Desafío:** En el proceso de modelado, la gestión del desequilibrio de clases en el conjunto de datos fue un desafío, ya que la cantidad de tweets positivos y negativos podía variar significativamente.
+
+   - **Solución:** Se optó por aplicar técnicas de submuestreo (undersampling) para equilibrar las clases y mejorar la capacidad predictiva de los modelos. Se evaluó y visualizó el impacto de esta técnica en la representación general del conjunto de datos.
 
 #### 5. Tamaño del Dataset:
    - Mencionar la cantidad total de registros en el dataset y si este tamaño fue considerado adecuado para el análisis de sentimiento.
