@@ -94,10 +94,10 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
    - Se utilizó Octoparse 8, una herramienta especializada en web scraping, para automatizar el proceso de extracción de datos. Esta herramienta permitió definir patrones de extracción específicos para capturar información relevante de los tweets.
 
 ###### 1.3. Definición de Criterios de Búsqueda:
-   - Se establecieron criterios de búsqueda específicos, como hashtags, palabras clave, o perfiles relevantes, para focalizar la obtención de datos en el tema de interés: Oelección de Cuba en la ONU. De modo qué, se escoge el post
+   - Se establecieron criterios de búsqueda específicos, como hashtags, palabras clave, o perfiles relevantes, para focalizar la obtención de datos en el tema de interés: Elección de Cuba en la ONU.
 
 ###### 1.4. Extracción de Datos:
-   - Octoparse 8 fue configurado para navegar por la plataforma Twitter, recopilando tweets relacionados con el tema definido en los criterios de búsqueda. Se extrajeron datos como el contenido del tweet, la fecha de publicación, y otros metadatos relevantes.
+   - Octoparse 8 fue configurado para navegar por la plataforma Twitter, recopilando tweets del tema definido en los criterios de búsqueda. Se extrajeron datos como el contenido del tweet, la fecha de publicación, y otros metadatos relevantes.
 
 ###### 1.5. Proceso Ético y Legal:
    - Es importante destacar que el proceso de web scraping se llevó a cabo de manera ética y legal, respetando los términos de servicio de Twitter y las leyes de privacidad aplicables.
