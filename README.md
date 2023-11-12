@@ -1,3 +1,4 @@
 # Descripción de la problemática
 
-[Cuba en el Consejo de Derechos Humanos](DictaduraCubana_ONU_SentimentAnalysis/img-post-twitter.png)
+<img src="DictaduraCubana_ONU_SentimentAnalysis/img-post-twitter.png" alt="Imagen de un post de Twitter">
+
