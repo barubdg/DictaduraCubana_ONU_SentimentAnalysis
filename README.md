@@ -1,3 +1,8 @@
+# Autor
+
+Baruch Benjamin Dámazo Gálvez
+Estudiante en ingenieria de Software (UTP)
+
 # Descripción de la problemática
 
 <img src="https://github.com/barubdg/DictaduraCubana_ONU_SentimentAnalysis/blob/main/img-post-twitter.png?raw=true" alt="Post Twitter: Cuba en el Consejo de Derechos Humanos">
