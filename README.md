@@ -21,60 +21,60 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 # Objetivos Generales del Proyecto
 
-1. **Exploración y Definición del Problema:**
+#### 1. Exploración y Definición del Problema:
    - Analizar el contexto del tweet y comprender la relevancia del problema planteado.
    - Definir claramente el objetivo general del proyecto de análisis de sentimiento.
 
-2. **Construcción y Preparación del Dataset:**
+#### 2. Construcción y Preparación del Dataset:
    - Importar las librerías necesarias y cargar el dataset de manera eficiente.
    - Realizar una exploración inicial del dataset para comprender su estructura y contenido.
 
-3. **Data Wrangling y Transformación:**
+#### 3. Data Wrangling y Transformación:
    - Realizar un proceso de data wrangling para garantizar la calidad y consistencia de los datos.
    - Transformar el dataset para facilitar el análisis de sentimiento, incluida la limpieza, manejo de valores nulos y duplicados.
 
-4. **Análisis Exploratorio de Datos (EDA):**
+#### 4. Análisis Exploratorio de Datos (EDA):
    - Realizar un análisis exploratorio detallado, visualizando la frecuencia de palabras y patrones en los datos.
    - Identificar las palabras más utilizadas por los usuarios y explorar la presencia de stop words.
 
-5. **Extracción de Características:**
+#### 5. Extracción de Características:
    - Aplicar técnicas de extracción de características, como TF-IDF, para preparar los datos para el análisis de sentimiento.
 
-6. **Análisis de Sentimiento:**
+#### 6. Análisis de Sentimiento:
    - Descargar y aplicar un léxico (en este caso, "Latin 1") para evaluar el sentimiento de los tweets.
    - Categorizar los tweets en positivos, negativos y neutros, asignando puntuaciones correspondientes.
    - Analizar las palabras más utilizadas en cada categoría y por cada usuario.
 
-7. **Modelado y Evaluación:**
+#### 7. Modelado y Evaluación:
    - Transformar las puntuaciones de sentimiento a una escala binaria (0 para negativo, 1 para positivo).
    - Dividir los datos en conjuntos de entrenamiento y prueba.
    - Implementar y ajustar modelos de aprendizaje automático, como Linear SVM y Random Forest.
    - Evaluar el rendimiento de los modelos mediante métricas relevantes y visualizar resultados con matrices de confusión.
 
-8. **Conclusiones y Recomendaciones:**
+#### 8. Conclusiones y Recomendaciones
    - Sintetizar los hallazgos del análisis de sentimiento.
    - Reflexionar sobre las limitaciones del enfoque y las posibles áreas de mejora.
    - Proporcionar recomendaciones para futuras investigaciones o aplicaciones del análisis de sentimiento en contextos similares.
 
 # Tecnologías Utilizadas
 
-1. **Google Colaboratory:**
+#### 1. Google Colaboratory:
 
    - Google Colaboratory es una plataforma de computación en la nube gratuita que permite a los usuarios crear y ejecutar código de Python en un entorno web. Es una herramienta muy útil para el análisis de sentimientos, ya que permite a los usuarios acceder a grandes cantidades de datos de texto sin tener que instalar ningún software en su propio ordenador.
 
-2. **OctoParse8:**
+#### 2. OctoParse8:
 
    - OctoParse8 es un web scraper. Es una herramienta muy útil para el análisis de sentimientos, ya que permite a los usuarios extraer datos de Twitter de forma rápida y sencilla.
 
-3. **Twitter:**
+#### 3. Twitter:
 
    - Twitter es una red social en la que los usuarios pueden publicar mensajes de texto cortos, conocidos como "tweets". Es una fuente de datos muy rica para el análisis de sentimientos, ya que los usuarios a menudo expresan sus opiniones y emociones en sus tweets.
 
-4. **Python:**
+#### 4. Python:
 
    - Python es un lenguaje de programación de propósito general que es muy popular para el análisis de datos. Es un lenguaje de alto nivel que es fácil de aprender y usar. Python tiene una amplia gama de bibliotecas y herramientas disponibles para el análisis de sentimientos, lo que lo convierte en una opción muy versátil para este tipo de proyectos.
 
-5. **Excel:**
+#### 5. Excel:
 
    - Excel es una hoja de cálculo popular que se puede utilizar para almacenar y manipular datos. Excel es una buena opción para guardar los resultados de su análisis de sentimientos, ya que le permite crear gráficos y tablas para visualizar sus datos.
 
@@ -84,37 +84,37 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 # Comentarios sobre el Dataset
 
-#### 1.1 Origen del Dataset:
+#### 1 Origen del Dataset:
    - Indicar la fuente de donde se obtuvo el dataset, ya sea a través de la recolección directa, descarga de repositorios en línea, u otras fuentes.
 
-#### 1.2 Descripción de las Columnas:
+#### 2 Descripción de las Columnas:
    - Proporcionar una descripción detallada de cada columna en el dataset, incluyendo su nombre, tipo de datos, y significado.
    - Señalar si alguna columna específica fue crucial para el análisis de sentimiento.
 
-#### 1.3 Calidad de los Datos:
+#### 3 Calidad de los Datos:
    - Evaluar la calidad general de los datos, destacando si hubo problemas significativos con valores nulos, duplicados, o inconsistencias.
 
-#### 1.4 Desafíos Encontrados:
+#### 4 Desafíos Encontrados:
    - Identificar y discutir los desafíos encontrados durante el análisis del dataset, como la presencia de datos ruidosos o la necesidad de procesamiento adicional.
 
-#### 1.5 Tamaño del Dataset:
+#### 5 Tamaño del Dataset:
    - Mencionar la cantidad total de registros en el dataset y si este tamaño fue considerado adecuado para el análisis de sentimiento.
 
 # Datos Utilizados
 
-#### 2.1 Selección de Datos Relevantes:
+#### 1 Selección de Datos Relevantes:
    - Explicar la lógica detrás de la selección de las columnas específicas utilizadas para el análisis de sentimiento.
 
-#### 2.2 Razones para la Elección del Dataset:
+#### 2 Razones para la Elección del Dataset:
    - Justificar la elección del dataset en relación con el problema específico que se está abordando y cómo se alinea con los objetivos del proyecto.
 
-#### 2.3 Preprocesamiento de Datos:
+#### 3 Preprocesamiento de Datos:
    - Detallar cualquier preprocesamiento aplicado a los datos antes de realizar el análisis de sentimiento, como limpieza de texto, tokenización, o conversión de formatos.
 
-#### 2.4 Inclusión de Variables Adicionales:
+#### 4 Inclusión de Variables Adicionales:
    - Si se incluyeron variables adicionales o características específicas para mejorar el análisis de sentimiento, proporcionar información sobre estas adiciones y su impacto potencial.
 
-#### 2.5 Limitaciones de los Datos:
+#### 5 Limitaciones de los Datos:
    - Reconocer y discutir las limitaciones inherentes al dataset utilizado, ya sea en términos de representatividad, sesgos, o cualquier otro factor que pueda afectar la validez de los resultados.
 
 # Resultado e Interpretaciones
