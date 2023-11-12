@@ -19,7 +19,7 @@ _**La elección de Cuba es un retroceso para la credibilidad de las Naciones Uni
 
 _**Es importante que la comunidad internacional exprese su rechazo a esta decisión.**_ La elección de Cuba es un mensaje equivocado a los países que violan los derechos humanos. Les dice que pueden seguir cometiendo abusos sin consecuencias. Es importante que la comunidad internacional exprese su rechazo a esta decisión y haga un llamamiento a Cuba para que libere a todos los presos políticos y respete los derechos humanos de su pueblo.
 
-# Objetivos Generales del Proyecto:
+# Objetivos Generales del Proyecto
 
 1. **Exploración y Definición del Problema:**
    - Analizar el contexto del tweet y comprender la relevancia del problema planteado.
@@ -57,3 +57,14 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
    - Proporcionar recomendaciones para futuras investigaciones o aplicaciones del análisis de sentimiento en contextos similares.
 
 # Tecnologías Utilizadas
+
+1. **Google Colaboratory:**
+
+2. **OctoParse8:**
+
+3. **Twitter:**
+
+4. **Excel:**
+
+5. **Python:**
+
