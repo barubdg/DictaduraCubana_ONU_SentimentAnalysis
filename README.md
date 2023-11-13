@@ -66,7 +66,7 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 #### 6. GitHub:
 
-   - GitHub es un servicio de alojamiento de código fuente que le permite almacenar y compartir su código con otros. GitHub es una buena opción para guardar su proyecto de análisis de sentimientos, ya que le permite colaborar con otros y hacer un seguimiento de los cambios en su código.
+   - GitHub es un servicio de alojamiento de código fuente que le permite almacenar y compartir su código con otros. GitHub es una buena opción para guardar proyectos de análisis de sentimientos, ya que le permite colaborar con otros y hacer un seguimiento de los cambios en su código.
 
 # Comentarios sobre el Dataset
 
@@ -137,7 +137,7 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
    - **Solución:** Se optó por aplicar técnicas de submuestreo (undersampling) para equilibrar las clases y mejorar la capacidad predictiva de los modelos. Se evaluó y visualizó el impacto de esta técnica en la representación general del conjunto de datos.
 
 #### 5. Tamaño del Dataset:
-   - El conjunto de datos inicial, antes de la aplicación del proceso de Data Wrangling, consta de un total de 2885 registros. Sin embargo, es crucial destacar que este número incluye valores duplicados y nulos que afectan la integridad y calidad de los datos.
+   - El conjunto de datos inicial, antes de la aplicación del proceso de Data Wrangling, consta de un total de 2884 registros. Sin embargo, es crucial destacar que este número incluye valores duplicados y nulos que afectan la integridad y calidad de los datos.
 
    - Después de aplicar el proceso de Data Wrangling, que abarca la eliminación de duplicados, manejo de valores nulos, y otras operaciones de limpieza, se obtiene un conjunto de datos depurado con 208 registros. Este reducido número de registros refleja la dedicación a garantizar la calidad y coherencia de los datos utilizados en el análisis de sentimiento.
 
