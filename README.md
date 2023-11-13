@@ -19,42 +19,36 @@ _**La elección de Cuba es un retroceso para la credibilidad de las Naciones Uni
 
 _**Es importante que la comunidad internacional exprese su rechazo a esta decisión.**_ La elección de Cuba es un mensaje equivocado a los países que violan los derechos humanos. Les dice que pueden seguir cometiendo abusos sin consecuencias. Es importante que la comunidad internacional exprese su rechazo a esta decisión y haga un llamamiento a Cuba para que libere a todos los presos políticos y respete los derechos humanos de su pueblo.
 
-# Objetivos Generales del Proyecto
+# Objetivos del Proyecto
 
-#### 1. Exploración y Definición del Problema:
-   - Analizar el contexto del tweet y comprender la relevancia del problema planteado.
-   - Definir claramente el objetivo general del proyecto de análisis de sentimiento.
+#### 1. Definición del Problema:
+   - Identificar y comprender la preocupación o controversia específica relacionada con la elección de Cuba en el Consejo de Derechos Humanos de la ONU.
+   - Clarificar los objetivos del análisis de sentimiento en el contexto de esta controversia.
 
-#### 2. Construcción y Preparación del Dataset:
-   - Importar las librerías necesarias y cargar el dataset de manera eficiente.
-   - Realizar una exploración inicial del dataset para comprender su estructura y contenido.
+#### 2. Construcción del Dataset:
+   - Asegurar que el conjunto de datos refleje adecuadamente la información necesaria para abordar el problema planteado en la definición del problema.
+   - Garantizar la integridad y calidad de los datos para un análisis preciso.
 
-#### 3. Data Wrangling y Transformación:
-   - Realizar un proceso de data wrangling para garantizar la calidad y consistencia de los datos.
-   - Transformar el dataset para facilitar el análisis de sentimiento, incluida la limpieza, manejo de valores nulos y duplicados.
+#### 3. Data Wrangling:
+   - Validar y limpiar los datos de manera efectiva para eliminar ruido y garantizar la consistencia.
+   - Asegurar que los datos estén listos para el análisis de sentimiento y que no haya problemas que puedan afectar los resultados.
 
-#### 4. Análisis Exploratorio de Datos (EDA):
-   - Realizar un análisis exploratorio detallado, visualizando la frecuencia de palabras y patrones en los datos.
-   - Identificar las palabras más utilizadas por los usuarios y explorar la presencia de stop words.
+#### 4. Transformación del Dataset:
+   - Realizar una limpieza y tokenización efectiva para preparar los datos para el análisis de sentimiento.
+   - Realizar un análisis exploratorio de datos detallado para comprender mejor la estructura y características del conjunto de datos.
 
-#### 5. Extracción de Características:
-   - Aplicar técnicas de extracción de características, como TF-IDF, para preparar los datos para el análisis de sentimiento.
+#### 5. Análisis de Sentimiento:
+   - Descargar y aplicar el lexicon "Latin 1" para capturar las connotaciones y matices del lenguaje en los tweets.
+   - Analizar la distribución de sentimientos en la comunidad de Twitter en relación con la elección de Cuba.
 
-#### 6. Análisis de Sentimiento:
-   - Descargar y aplicar un léxico (en este caso, "Latin 1") para evaluar el sentimiento de los tweets.
-   - Categorizar los tweets en positivos, negativos y neutros, asignando puntuaciones correspondientes.
-   - Analizar las palabras más utilizadas en cada categoría y por cada usuario.
+#### 6. Modelado:
+   - Aplicar y comparar diferentes modelos de machine learning para predecir el sentimiento de los tweets.
+   - Evaluar la eficacia de los modelos utilizando métricas apropiadas como precisión, recall y F1-score.
 
-#### 7. Modelado y Evaluación:
-   - Transformar las puntuaciones de sentimiento a una escala binaria (0 para negativo, 1 para positivo).
-   - Dividir los datos en conjuntos de entrenamiento y prueba.
-   - Implementar y ajustar modelos de aprendizaje automático, como Linear SVM y Random Forest.
-   - Evaluar el rendimiento de los modelos mediante métricas relevantes y visualizar resultados con matrices de confusión.
-
-#### 8. Conclusiones y Recomendaciones
-   - Sintetizar los hallazgos del análisis de sentimiento.
-   - Reflexionar sobre las limitaciones del enfoque y las posibles áreas de mejora.
-   - Proporcionar recomendaciones para futuras investigaciones o aplicaciones del análisis de sentimiento en contextos similares.
+#### 7. Conclusiones:
+   - Resumir las principales conclusiones derivadas del análisis de sentimiento.
+   - Proporcionar perspectivas sobre cómo la comunidad de Twitter percibe la elección de Cuba en el Consejo de Derechos Humanos.
+   - Ofrecer recomendaciones o sugerencias basadas en los resultados obtenidos.
 
 # Tecnologías Utilizadas
 
