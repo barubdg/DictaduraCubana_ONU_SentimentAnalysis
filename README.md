@@ -158,5 +158,5 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
    - **Uso:** Permite realizar un análisis más granular, centrándose en las palabras clave que pueden indicar sentimientos positivos, negativos o neutrales. La tokenización también facilita la aplicación de técnicas avanzadas de procesamiento de lenguaje natural.
 
 # Resultado e Interpretaciones
-> dsfsdfds
+
 # Conclusiones
