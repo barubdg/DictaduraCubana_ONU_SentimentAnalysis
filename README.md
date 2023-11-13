@@ -1,6 +1,6 @@
 # Autor
 
-Baruch Benjamin Dámazo Gálvez
+**Baruch Benjamin Dámazo Gálvez**
 
 Estudiante de ingeniería de Software (UTP)
 
