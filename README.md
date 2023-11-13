@@ -160,3 +160,54 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 # Resultado e Interpretaciones
 
 # Conclusiones
+
+##### 1. CONCLUSIÓN DE DATA WRANGLING
+
+   - El proceso de Data Wrangling desempeñó un papel crucial en la preparación de los datos para el análisis de sentimiento, asegurando la validez y la limpieza efectiva. La eliminación de columnas irrelevantes, la gestión de valores nulos, la detección y eliminación de duplicados, así como la conversión de formatos, fueron pasos esenciales que contribuyeron a la calidad de los datos.
+
+   - La validación y limpieza de datos no solo eliminaron ruido y redundancias, sino que también garantizaron la coherencia de los datos, proporcionando una base sólida para el análisis subsiguiente. La detección y manejo de valores nulos se abordaron de manera proactiva, evitando posibles distorsiones en los resultados del análisis de sentimiento. Además, la conversión de cantidades a formatos numéricos más manejables facilitó la interpretación de los resultados y contribuyó a la coherencia del conjunto de datos.
+
+   - La preparación adecuada de los datos para el análisis de sentimiento fue un aspecto fundamental del proyecto. La limpieza rigurosa y la transformación cuidadosa permitieron sortear posibles problemas que podrían haber afectado la precisión y la confiabilidad de los resultados. A pesar de los desafíos que puedan haber surgido, las decisiones tomadas durante el proceso de Data Wrangling fueron fundamentales para garantizar la calidad de los datos y la robustez de los análisis posteriores.
+
+##### 2. CONCLUSIÓN DE TRANSFORMACIÓN DEL DATASET
+
+**Limpieza y Tokenización Efectiva**
+
+   - La fase de limpieza y tokenización ha demostrado ser crucial en la preparación de datos para el análisis de sentimiento. La eliminación de información innecesaria y la tokenización efectiva permitieron un procesamiento más eficiente en las etapas subsiguientes del proyecto. La consistencia y calidad de los datos mejoraron significativamente, facilitando la extracción de características y la construcción de modelos más precisos.
+
+**Análisis Exploratorio de Datos Detallado**
+
+   - El análisis exploratorio de datos proporcionó una visión profunda de la estructura y características del conjunto de datos. Se identificaron patrones significativos en la frecuencia de palabras, especialmente al analizar las palabras más utilizadas por cada usuario.
+
+**Hallazgos Clave del Análisis Exploratorio de Datos**
+
+   - Tidy Data: La organización limpia de los datos facilitó la interpretación y redujo la complejidad durante el análisis.
+
+   - Frecuencia de Palabras: Se observaron patrones interesantes en la frecuencia de palabras, siendo las palabras totales por usuarios y palabras distintas por usuario, destacando términos dominantes.
+
+   - Stop Words y Correlación entre Nick_Usuario: La identificación y tratamiento de palabras de paro, así como la exploración de correlaciones entre usuarios, contribuyeron a un análisis más profundo y específico.
+
+##### 3. CONCLUSIÓN DE ANALISIS DE SENTIMIENTO
+
+**Descargar Lexicon "Latin 1"**
+
+   - La elección de un lexicon específico ("Latin 1") demostró ser relevante para la tarea de análisis de sentimiento. Este enfoque permitió una asignación más precisa de polaridades a las palabras, mejorando la calidad de la evaluación de sentimientos.
+
+**Ejecución de Sentimiento**
+
+   - La clasificación de tweets en positivos, negativos y neutros, junto con la asignación de puntuaciones, proporcionó una base sólida para el análisis posterior. La identificación de las palabras más utilizadas en diferentes categorías permitió una comprensión más profunda de las expresiones de sentimiento de los usuarios.
+
+##### 4. CONCLUSIÓN DE LA MATRIZ DE CONFUSIÓN
+**Linear SVM:**
+
+   - Mantiene un rendimiento consistente entre los dos ajustes, con buenos resultados en la clasificación de tweets positivos y negativos, pero algunos falsos positivos.
+
+**Random Forest:**
+
+   - En el ajuste 2, ha mejorado la clasificación de verdaderos positivos eliminando los falsos positivos, pero ha introducido más falsos negativos.
+
+##### 5. CONCLUSIÓN DE ELECCIÓN DEL MODELO
+   - Considerando la importancia del recall en la aplicación (garantizar que se identifiquen correctamente todos los tweets positivos), el modelo Linear SVM en el Ajuste 2 parece ser una opción sólida. Aunque la precisión en los datos de prueba es del 72.2%, el recall es del 100%, lo que significa que está identificando todos los tweets positivos relacionados con el escandaloso evento de la elección de Cuba en el Consejo de Derechos Humanos.
+
+   - La razón es que perder comentarios relevantes o críticos en el contexto podría tener consecuencias significativas. Aunque este modelo puede tener una tasa más alta de falsos positivos, clasificando algunos comentarios como relevantes cuando no lo son, la pérdida de comentarios importantes podría ser más perjudicial en este contexto.
+
