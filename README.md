@@ -21,31 +21,27 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 # Objetivos del Proyecto
 
-#### 1. Definición del Problema:
-   - Identificar y comprender la preocupación o controversia específica relacionada con la elección de Cuba en el Consejo de Derechos Humanos de la ONU.
-   - Clarificar los objetivos del análisis de sentimiento en el contexto de esta controversia.
-
-#### 2. Construcción del Dataset:
+#### 1. Construcción del Dataset:
    - Asegurar que el conjunto de datos refleje adecuadamente la información necesaria para abordar el problema planteado en la definición del problema.
    - Garantizar la integridad y calidad de los datos para un análisis preciso.
 
-#### 3. Data Wrangling:
+#### 2. Data Wrangling:
    - Validar y limpiar los datos de manera efectiva para eliminar ruido y garantizar la consistencia.
    - Asegurar que los datos estén listos para el análisis de sentimiento y que no haya problemas que puedan afectar los resultados.
 
-#### 4. Transformación del Dataset:
+#### 3. Transformación del Dataset:
    - Realizar una limpieza y tokenización efectiva para preparar los datos para el análisis de sentimiento.
    - Realizar un análisis exploratorio de datos detallado para comprender mejor la estructura y características del conjunto de datos.
 
-#### 5. Análisis de Sentimiento:
+#### 4. Análisis de Sentimiento:
    - Descargar y aplicar el lexicon "Latin 1" para capturar las connotaciones y matices del lenguaje en los tweets.
    - Analizar la distribución de sentimientos en la comunidad de Twitter en relación con la elección de Cuba.
 
-#### 6. Modelado:
+#### 5. Modelado:
    - Aplicar y comparar diferentes modelos de machine learning para predecir el sentimiento de los tweets.
    - Evaluar la eficacia de los modelos utilizando métricas apropiadas como precisión, recall y F1-score.
 
-#### 7. Conclusiones:
+#### 6. Conclusiones:
    - Resumir las principales conclusiones derivadas del análisis de sentimiento.
    - Proporcionar perspectivas sobre cómo la comunidad de Twitter percibe la elección de Cuba en el Consejo de Derechos Humanos.
    - Ofrecer recomendaciones o sugerencias basadas en los resultados obtenidos.
