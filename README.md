@@ -161,27 +161,27 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
    - La selección de las columnas "Nombre_Usuario", "Nick_Usuario", y "token" para el análisis de sentimiento se basa en la lógica de capturar información clave que pueda influir en la expresión de opiniones y sentimientos. Aquí se explica la razón detrás de la elección de cada columna:
 
 ###### 1.1 **Nombre_Usuario:**
-   - *Lógica:* La identidad del usuario puede ser relevante para el análisis de sentimiento. Diferentes usuarios pueden tener diferentes perspectivas, preferencias o historiales, lo que puede influir en la forma en que expresan sus opiniones.
-   - *Uso:* Permite analizar si ciertos usuarios tienden a expresar opiniones más positivas, negativas o neutrales. También puede ser útil para identificar patrones de comportamiento de usuarios específicos.
+   - **Lógica:** La identidad del usuario puede ser relevante para el análisis de sentimiento. Diferentes usuarios pueden tener diferentes perspectivas, preferencias o historiales, lo que puede influir en la forma en que expresan sus opiniones.
+   - **Uso:** Permite analizar si ciertos usuarios tienden a expresar opiniones más positivas, negativas o neutrales. También puede ser útil para identificar patrones de comportamiento de usuarios específicos.
 
 ###### 1.2 **Nick_Usuario:**
-   - *Lógica:* La inclusión del "Nick_Usuario" se debe a la posibilidad de que haya usuarios con nombres similares. Los nicks pueden actuar como identificadores únicos, ayudando a distinguir entre usuarios con nombres comunes.
-   - *Uso:* Facilita la diferenciación entre usuarios con nombres similares, lo que es crucial para evitar confusiones y garantizar la precisión al asignar opiniones a usuarios específicos.
+   - **Lógica:** La inclusión del "Nick_Usuario" se debe a la posibilidad de que haya usuarios con nombres similares. Los nicks pueden actuar como identificadores únicos, ayudando a distinguir entre usuarios con nombres comunes.
+   - **Uso:** Facilita la diferenciación entre usuarios con nombres similares, lo que es crucial para evitar confusiones y garantizar la precisión al asignar opiniones a usuarios específicos.
 
 ###### 1.3 **token:**
-   - *Lógica:* La columna "token" generalmente se refiere a unidades de texto más pequeñas o tokenizadas, como palabras individuales. El análisis de sentimiento a menudo se basa en la evaluación de las palabras utilizadas en un comentario o reseña.
-   - *Uso:* Permite realizar un análisis más granular, centrándose en las palabras clave que pueden indicar sentimientos positivos, negativos o neutrales. La tokenización también facilita la aplicación de técnicas avanzadas de procesamiento de lenguaje natural.
+   - **Lógica:** La columna "token" generalmente se refiere a unidades de texto más pequeñas o tokenizadas, como palabras individuales. El análisis de sentimiento a menudo se basa en la evaluación de las palabras utilizadas en un comentario o reseña.
+   - **Uso:** Permite realizar un análisis más granular, centrándose en las palabras clave que pueden indicar sentimientos positivos, negativos o neutrales. La tokenización también facilita la aplicación de técnicas avanzadas de procesamiento de lenguaje natural.
 
-#### 2 Razones para la Elección del Dataset:
+#### 2. Razones para la Elección del Dataset:
    - Justificar la elección del dataset en relación con el problema específico que se está abordando y cómo se alinea con los objetivos del proyecto.
 
-#### 3 Preprocesamiento de Datos:
+#### 3. Preprocesamiento de Datos:
    - Detallar cualquier preprocesamiento aplicado a los datos antes de realizar el análisis de sentimiento, como limpieza de texto, tokenización, o conversión de formatos.
 
-#### 4 Inclusión de Variables Adicionales:
+#### 4. Inclusión de Variables Adicionales:
    - Si se incluyeron variables adicionales o características específicas para mejorar el análisis de sentimiento, proporcionar información sobre estas adiciones y su impacto potencial.
 
-#### 5 Limitaciones de los Datos:
+#### 5. Limitaciones de los Datos:
    - Reconocer y discutir las limitaciones inherentes al dataset utilizado, ya sea en términos de representatividad, sesgos, o cualquier otro factor que pueda afectar la validez de los resultados.
 
 # Resultado e Interpretaciones
