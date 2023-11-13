@@ -87,19 +87,19 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 #### 1. Origen del Dataset:
    - El dataset utilizado en este proyecto, denominado "Data-Eleccion-ONU-Cuba", fue adquirido a través de la aplicación de técnicas de web scraping utilizando la herramienta Octoparse 8. La fuente primaria de los datos es la red social Twitter.
 
-###### 1.1 Selección de la Plataforma:
+##### 1.1 Selección de la Plataforma:
    - Twitter fue elegido como la plataforma principal para la recolección de datos debido a su relevancia en la difusión de información y opiniones.
 
-###### 1.2. Configuración de Octoparse 8:
+##### 1.2. Configuración de Octoparse 8:
    - Se utilizó Octoparse 8, una herramienta especializada en web scraping, para automatizar el proceso de extracción de datos. Esta herramienta permitió definir patrones de extracción específicos para capturar información relevante de los tweets.
 
-###### 1.3. Definición de Criterios de Búsqueda:
+##### 1.3. Definición de Criterios de Búsqueda:
    - Se establecieron criterios de búsqueda específicos, como hashtags, palabras clave, o perfiles relevantes, para focalizar la obtención de datos en el tema de interés: Elección de Cuba en la ONU.
 
-###### 1.4. Extracción de Datos:
+##### 1.4. Extracción de Datos:
    - Octoparse 8 fue configurado para navegar por la plataforma Twitter, recopilando tweets del tema definido en los criterios de búsqueda. Se extrajeron datos como el contenido del tweet, la fecha de publicación, y otros metadatos relevantes.
 
-###### 1.5. Proceso Ético y Legal:
+##### 1.5. Proceso Ético y Legal:
    - Es importante destacar que el proceso de web scraping se llevó a cabo de manera ética y legal, respetando los términos de servicio de Twitter y las leyes de privacidad aplicables.
 
 #### 2. Descripción de las Columnas:
@@ -116,36 +116,36 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 #### 3. Calidad de los Datos:
    - La combinación de estos procesos aseguró que el dataset resultante estuviera libre de problemas significativos, como valores nulos, duplicados o inconsistencias, proporcionando una base sólida para el análisis subsiguiente de sentimiento.
-###### 3.1 Verificación, Corrección y Eliminación de Columnas:
+##### 3.1 Verificación, Corrección y Eliminación de Columnas:
    - Se llevó a cabo una revisión detallada de las columnas presentes en el dataset. Aquellas que no aportaban información relevante para el análisis de sentimiento fueron eliminadas, simplificando así la estructura del dataset.
 
-###### 3.2 Eliminación de Valores Nulos Existente:
+##### 3.2 Eliminación de Valores Nulos Existente:
    - Se identificaron y eliminaron valores nulos en las columnas pertinentes. Este paso fue crucial para garantizar la integridad y coherencia de los datos utilizados en el análisis.
 
-###### 3.3 Valores Duplicados:
+##### 3.3 Valores Duplicados:
    - Se implementó un proceso para identificar y eliminar valores duplicados en el dataset. Esto contribuyó a evitar sesgos en el análisis y garantizar la representatividad de las muestras.
 
-###### 3.4 Rellenar Valores Nulos Existente por Fila-Columna:
+##### 3.4 Rellenar Valores Nulos Existente por Fila-Columna:
    - Cuando fue necesario, se aplicaron técnicas de imputación para rellenar valores nulos de manera estratégica, evitando la pérdida de información valiosa.
 
-###### 3.5 Conversión de Cantidad - Visualización en Mil a Números Enteros:
+##### 3.5 Conversión de Cantidad - Visualización en Mil a Números Enteros:
    - Se llevó a cabo la conversión adecuada de las cantidades expresadas en visualizaciones en mil a números enteros, facilitando así la interpretación y comparación de los datos.
 
 #### 4. Desafíos Encontrados:
    - Durante el proceso de construcción del dataset y el análisis de sentimiento, se enfrentaron varios desafíos que requirieron atención y resolución. Aquí se destacan los principales:
 
-###### 4.1 Limpieza y Tokenización:
+##### 4.1 Limpieza y Tokenización:
 
    - **Desafío:** La fase de preprocesamiento, específicamente la limpieza y tokenización del texto, presentó dificultades debido a la presencia de caracteres especiales, emojis o formatos no estándar en los tweets.
 
    - **Solución:** Se implementaron técnicas avanzadas de limpieza de texto y tokenización para abordar estos desafíos. Se utilizaron expresiones regulares y bibliotecas especializadas para manejar eficazmente la diversidad de formatos presentes en los datos.
 
-###### 4.2 Correlación entre Nick_Usuario:
+##### 4.2 Correlación entre Nick_Usuario:
    - **Desafío:** La identificación y análisis de la correlación entre los nicks de usuario en los tweets presentó desafíos debido a la variabilidad en la forma en que los usuarios expresan sus opiniones y la posible presencia de cuentas falsas o bots.
 
    - **Solución:** Se llevó a cabo un análisis detallado de la variabilidad y autenticidad de los nicks de usuario. Se aplicaron técnicas de detección de anomalías para identificar posibles cuentas no auténticas, y se ajustó el enfoque de análisis de sentimiento para considerar estas variabilidades.
 
-###### 4.3 Submuestreo (Undersampling):
+##### 4.3 Submuestreo (Undersampling):
    - **Desafío:** En el proceso de modelado, la gestión del desequilibrio de clases en el conjunto de datos fue un desafío, ya que la cantidad de tweets positivos y negativos podía variar significativamente.
 
    - **Solución:** Se optó por aplicar técnicas de submuestreo (undersampling) para equilibrar las clases y mejorar la capacidad predictiva de los modelos. Se evaluó y visualizó el impacto de esta técnica en la representación general del conjunto de datos.
@@ -160,15 +160,15 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 #### 1. Selección de Datos Relevantes:
    - La selección de las columnas "Nombre_Usuario", "Nick_Usuario", y "token" para el análisis de sentimiento se basa en la lógica de capturar información clave que pueda influir en la expresión de opiniones y sentimientos. Aquí se explica la razón detrás de la elección de cada columna:
 
-###### 1.1 **Nombre_Usuario:**
+##### 1.1 **Nombre_Usuario:**
    - **Lógica:** La identidad del usuario puede ser relevante para el análisis de sentimiento. Diferentes usuarios pueden tener diferentes perspectivas, preferencias o historiales, lo que puede influir en la forma en que expresan sus opiniones.
    - **Uso:** Permite analizar si ciertos usuarios tienden a expresar opiniones más positivas, negativas o neutrales. También puede ser útil para identificar patrones de comportamiento de usuarios específicos.
 
-###### 1.2 **Nick_Usuario:**
+##### 1.2 **Nick_Usuario:**
    - **Lógica:** La inclusión del "Nick_Usuario" se debe a la posibilidad de que haya usuarios con nombres similares. Los nicks pueden actuar como identificadores únicos, ayudando a distinguir entre usuarios con nombres comunes.
    - **Uso:** Facilita la diferenciación entre usuarios con nombres similares, lo que es crucial para evitar confusiones y garantizar la precisión al asignar opiniones a usuarios específicos.
 
-###### 1.3 **token:**
+##### 1.3 **token:**
    - **Lógica:** La columna "token" generalmente se refiere a unidades de texto más pequeñas o tokenizadas, como palabras individuales. El análisis de sentimiento a menudo se basa en la evaluación de las palabras utilizadas en un comentario o reseña.
    - **Uso:** Permite realizar un análisis más granular, centrándose en las palabras clave que pueden indicar sentimientos positivos, negativos o neutrales. La tokenización también facilita la aplicación de técnicas avanzadas de procesamiento de lenguaje natural.
 
