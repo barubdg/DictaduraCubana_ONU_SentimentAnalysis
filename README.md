@@ -161,7 +161,7 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 # Conclusiones
 
-##### 1. CONCLUSIÓN DE DATA WRANGLING
+##### 1. Conclusión de Data Wrangling
 
    - El proceso de Data Wrangling desempeñó un papel crucial en la preparación de los datos para el análisis de sentimiento, asegurando la validez y la limpieza efectiva. La eliminación de columnas irrelevantes, la gestión de valores nulos, la detección y eliminación de duplicados, así como la conversión de formatos, fueron pasos esenciales que contribuyeron a la calidad de los datos.
 
@@ -169,7 +169,7 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
    - La preparación adecuada de los datos para el análisis de sentimiento fue un aspecto fundamental del proyecto. La limpieza rigurosa y la transformación cuidadosa permitieron sortear posibles problemas que podrían haber afectado la precisión y la confiabilidad de los resultados. A pesar de los desafíos que puedan haber surgido, las decisiones tomadas durante el proceso de Data Wrangling fueron fundamentales para garantizar la calidad de los datos y la robustez de los análisis posteriores.
 
-##### 2. CONCLUSIÓN DE TRANSFORMACIÓN DEL DATASET
+##### 2. Conclusión de Transformación del Dataset
 
 **Limpieza y Tokenización Efectiva**
 
@@ -187,7 +187,7 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
    - Stop Words y Correlación entre Nick_Usuario: La identificación y tratamiento de palabras de paro, así como la exploración de correlaciones entre usuarios, contribuyeron a un análisis más profundo y específico.
 
-##### 3. CONCLUSIÓN DE ANALISIS DE SENTIMIENTO
+##### 3. Conclusión de Análisis de Sentimiento
 
 **Descargar Lexicon "Latin 1"**
 
@@ -197,7 +197,7 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
    - La clasificación de tweets en positivos, negativos y neutros, junto con la asignación de puntuaciones, proporcionó una base sólida para el análisis posterior. La identificación de las palabras más utilizadas en diferentes categorías permitió una comprensión más profunda de las expresiones de sentimiento de los usuarios.
 
-##### 4. CONCLUSIÓN DE LA MATRIZ DE CONFUSIÓN
+##### 4. Conclusión de la matriz de confusión
 **Linear SVM:**
 
    - Mantiene un rendimiento consistente entre los dos ajustes, con buenos resultados en la clasificación de tweets positivos y negativos, pero algunos falsos positivos.
