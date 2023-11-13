@@ -176,53 +176,53 @@ Random Forest   0.888889        0.888889         0.636364   0.777778    1.00000
 
 ##### Linear SVM:
 
-   - Accuracy_train: El modelo tiene una precisión del 96.8% en los datos de entrenamiento.
+   - **Accuracy_train:** El modelo tiene una precisión del 96.8% en los datos de entrenamiento.
 
-   - Accuracy_test: En los datos de prueba, el modelo tiene una precisión del 72.2%.
+   - **Accuracy_test:** En los datos de prueba, el modelo tiene una precisión del 72.2%.
 
-   - Recall: Identifica correctamente todos los tweets positivos (100%).
+   - **Recall:** Identifica correctamente todos los tweets positivos (100%).
 
-   - F1-score: Combina precisión y recall en una métrica única (68.8%).
+   - **F1-score:** Combina precisión y recall en una métrica única (68.8%).
 
-   - Precisión: De los tweets que clasifica como positivos, el 52.4% son realmente positivos.
+   - **Precisión:** De los tweets que clasifica como positivos, el 52.4% son realmente positivos.
 
 ##### Random Forest:
 
-   - Accuracy_train: La precisión en los datos de entrenamiento es del 72.2%.
+   - **Accuracy_train:** La precisión en los datos de entrenamiento es del 72.2%.
 
-   - Accuracy_test: Similar al SVM, el modelo tiene una precisión del 72.2% en los datos de prueba.
+   - **Accuracy_test:** Similar al SVM, el modelo tiene una precisión del 72.2% en los datos de prueba.
 
-   - Recall: Al igual que el SVM, identifica correctamente todos los tweets positivos (100%).
+   - **Recall:** Al igual que el SVM, identifica correctamente todos los tweets positivos (100%).
 
-   - F1-score: Similar al SVM (68.8%).
+   - **F1-score:** Similar al SVM (68.8%).
 
-   - Precisión: De los tweets clasificados como positivos, el 52.4% son realmente positivos.
+   - **Precisión:** De los tweets clasificados como positivos, el 52.4% son realmente positivos.
 
 #### Modelos de Ajuste 2:
 
 ##### Linear SVM:
 
-   - Accuracy_train: La precisión en los datos de entrenamiento es del 96.8% (similar al ajuste 1).
+   - **Accuracy_train:** La precisión en los datos de entrenamiento es del 96.8% (similar al ajuste 1).
 
-   - Accuracy_test: Igualmente, el modelo tiene una precisión del 72.2% en los datos de prueba.
+   - **Accuracy_test:** Igualmente, el modelo tiene una precisión del 72.2% en los datos de prueba.
 
-   - Recall: Nuevamente, identifica correctamente todos los tweets positivos (100%).
+   - **Recall:** Nuevamente, identifica correctamente todos los tweets positivos (100%).
 
-   - F1-score: Al igual que en el ajuste 1 (68.8%).
+   - **F1-score:** Al igual que en el ajuste 1 (68.8%).
 
-   - Precisión: De los tweets clasificados como positivos, el 52.4% son realmente positivos.
+   - **Precisión:** De los tweets clasificados como positivos, el 52.4% son realmente positivos.
 
 ##### Random Forest:
 
-   - Accuracy_train: La precisión en los datos de entrenamiento ha aumentado al 88.9%.
+   - **Accuracy_train:** La precisión en los datos de entrenamiento ha aumentado al 88.9%.
 
-   - Accuracy_test: También ha mejorado al 88.9% en los datos de prueba.
+   - **Accuracy_test:** También ha mejorado al 88.9% en los datos de prueba.
 
-   - Recall: Ha disminuido al 63.6%, lo que indica que no identifica todos los tweets positivos.
+   - **Recall:** Ha disminuido al 63.6%, lo que indica que no identifica todos los tweets positivos.
 
-   - F1-score: Aunque ha aumentado al 77.8%, la disminución en recall sugiere que hay un equilibrio entre precisión y recall.
+   - **F1-score:** Aunque ha aumentado al 77.8%, la disminución en recall sugiere que hay un equilibrio entre precisión y recall.
 
-   - Precisión: De los tweets clasificados como positivos, el 100% son realmente positivos.
+   - **Precisión:** De los tweets clasificados como positivos, el 100% son realmente positivos.
 
 #### 2. Interpretación de la matriz de confusión
 
