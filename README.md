@@ -162,9 +162,10 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 #### EVALUACIÓN DEL DESEMPEÑO DEL MODELO
 
 ##### MODELO DE AJUSTE 1
-          Modelo  Accuracy_train  Accuracy_test  Recall  F1-score  Precisión
-0     Linear SVM        0.968085       0.722222     1.0    0.6875    0.52381
-1  Random Forest        0.722222       0.722222     1.0    0.6875    0.52381
+
+      Modelo            Accuracy_train   Accuracy_test   Recall  F1-score  Precisión
+0     Linear SVM        0.968085         0.722222        1.0     0.6875    0.52381
+1     Random Forest     0.722222         0.722222        1.0     0.6875    0.52381
 
 ##### MODELO DE AJUSTE 2
           Modelo  Accuracy_train  Accuracy_test    Recall  F1-score  Precisión
