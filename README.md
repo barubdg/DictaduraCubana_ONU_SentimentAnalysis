@@ -314,7 +314,7 @@ Random Forest   0.888889        0.888889         0.636364   0.777778    1.00000
 
    - En el ajuste 2, ha mejorado la clasificación de verdaderos positivos eliminando los falsos positivos, pero ha introducido más falsos negativos.
 
-#### 5. CONCLUSIÓN DE ELECCIÓN DEL MODELO
+#### 5. Conclusión de elección del modelo
    - Considerando la importancia del recall en la aplicación (garantizar que se identifiquen correctamente todos los tweets positivos), el modelo Linear SVM en el Ajuste 2 parece ser una opción sólida. Aunque la precisión en los datos de prueba es del 72.2%, el recall es del 100%, lo que significa que está identificando todos los tweets positivos relacionados con el escandaloso evento de la elección de Cuba en el Consejo de Derechos Humanos.
 
    - La razón es que perder comentarios relevantes o críticos en el contexto podría tener consecuencias significativas. Aunque este modelo puede tener una tasa más alta de falsos positivos, clasificando algunos comentarios como relevantes cuando no lo son, la pérdida de comentarios importantes podría ser más perjudicial en este contexto.
