@@ -25,11 +25,11 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 # Objetivos del Proyecto
 
-## Objetivo general:
+## Objetivo general
 
 Analizar el sentimiento expresado en los mensajes de Twitter relacionados con la elección de la dictadura cubana como miembro del Consejo de Derechos Humanos de la ONU. Además, de proporcionar insights sobre la percepción pública, identificar patrones de sentimiento y evaluar el desempeño de modelos de análisis de sentimiento, contribuyendo a una comprensión más profunda de las opiniones en torno a este controvertido evento.
 
-## Objetivo Especifico:
+## Objetivo Especifico
 
 #### 1. Data Wrangling:
    - Validar y limpiar los datos de manera efectiva para eliminar ruido y garantizar la consistencia.
