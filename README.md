@@ -25,21 +25,36 @@ _**Es importante que la comunidad internacional exprese su rechazo a esta decisi
 
 # Objetivos del Proyecto
 
+## Objetivo general:
+
+Analizar el sentimiento expresado en los mensajes de Twitter relacionados con la elección de la dictadura cubana como miembro del Consejo de Derechos Humanos de la ONU. Además, de proporcionar insights sobre la percepción pública, identificar patrones de sentimiento y evaluar el desempeño de modelos de análisis de sentimiento, contribuyendo a una comprensión más profunda de las opiniones en torno a este controvertido evento.
+
+## Objetivo Especifico:
+
 #### 1. Data Wrangling:
    - Validar y limpiar los datos de manera efectiva para eliminar ruido y garantizar la consistencia.
    - Asegurar que los datos estén listos para el análisis de sentimiento y que no haya problemas que puedan afectar los resultados.
 
 #### 2. Transformación del Dataset:
-   - Realizar una limpieza y tokenización efectiva para preparar los datos para el análisis de sentimiento.
-   - Realizar un análisis exploratorio de datos detallado para comprender mejor la estructura y características del conjunto de datos.
+   - Aplicar técnicas de preprocesamiento, como la tokenización y la eliminación de stop words, para preparar los datos para el análisis de sentimiento.
+   - Realizar un análisis exploratorio de datos (EDA) para comprender la distribución de palabras, identificar tendencias y visualizar la frecuencia de términos clave.
 
 #### 3. Análisis de Sentimiento:
-   - Descargar y aplicar el lexicon "Latin 1" para capturar las connotaciones y matices del lenguaje en los tweets.
-   - Analizar la distribución de sentimientos en la comunidad de Twitter en relación con la elección de Cuba.
+   - Descargar y aplicar un lexicon "Latin 1" para evaluar el sentimiento de los tweets.
+   - Categorizar los tweets en positivos, negativos y neutros, y analizar las palabras más utilizadas por los usuarios en cada categoría.
+   - Evaluar la polaridad de los tweets a través de la asignación de puntuaciones y explorar patrones de sentimiento.
 
 #### 4. Modelado:
-   - Aplicar y comparar diferentes modelos de machine learning para predecir el sentimiento de los tweets.
-   - Evaluar la eficacia de los modelos utilizando métricas apropiadas como precisión, recall y F1-score.
+   - Implementar modelos de análisis de sentimiento, como Support Vector Machines (SVM) y Random Forest, y ajustar los hiperparámetros para optimizar el rendimiento.
+   - Dividir los datos en conjuntos de entrenamiento y prueba, aplicar submuestreo (undersampling) si es necesario, y evaluar la eficacia de los modelos mediante matrices de confusión.
+
+#### 5. Resultados e Interpretaciones:
+   - Evaluar el desempeño del modelo a través de métricas de precisión, recall, y F1-score.
+   - Interpretar los resultados de la matriz de confusión para comprender la efectividad y limitaciones de los modelos.
+
+#### 6. Conclusiones y Recomendaciones:
+   - Sintetizar los hallazgos del proyecto y concluir sobre la percepción pública en Twitter con respecto a la elección de la dictadura cubana en el Consejo de Derechos Humanos.
+   - Proporcionar recomendaciones para futuras investigaciones o acciones basadas en los resultados obtenidos.
 
 # Tecnologías Utilizadas
 
