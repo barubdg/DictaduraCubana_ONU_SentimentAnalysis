@@ -333,7 +333,7 @@ Random Forest   0.888889        0.888889         0.636364   0.777778    1.00000
 
    - La razón es que perder comentarios relevantes o críticos en el contexto podría tener consecuencias significativas. Aunque este modelo puede tener una tasa más alta de falsos positivos, clasificando algunos comentarios como relevantes cuando no lo son, la pérdida de comentarios importantes podría ser más perjudicial en este contexto.
 
-#### 6. Recomendaciones
+# Recomendaciones
    - Dado que el conjunto de datos es relativamente pequeño al realizar el submuestreo para abordar el desequilibrio de clases, es importante considerar la capacidad del modelo para generalizar a nuevos datos.
    - Además, el tamaño limitado del conjunto de datos, la estabilidad en el rendimiento del modelo y su capacidad para generalizar a nuevos datos se vuelven aún más críticos. En este contexto, la simplicidad del modelo y la falta de sobreajuste son aspectos clave a tener en cuenta.
    - Considerando esto y la necesidad de un buen recall, la recomendación previa de utilizar el modelo Linear SVM del Ajuste 2 sigue siendo sólida. Los SVM lineales tienden a funcionar bien en conjuntos de datos pequeños y pueden ser más estables en términos de generalización.
