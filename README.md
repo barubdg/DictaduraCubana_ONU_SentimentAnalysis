@@ -7,7 +7,7 @@ Estudiante de ingeniería de Software (UTP)
 **Presentación Google Slides:**
 
 https://docs.google.com/presentation/d/1W_vj6JML7DBzhnX9PoIJyUpaqqBfpM0Ra3pu-cURxGM/edit?usp=sharing
-
+https://docs.google.com/presentation/d/1JevnpFPavB4FKjutMzqNA1aNdxzL4sIeGlgXjzG8WLU/edit?usp=sharing
 # Descripción de la problemática
 
 <img src="https://github.com/barubdg/DictaduraCubana_ONU_SentimentAnalysis/blob/main/img-post-twitter.png?raw=true" alt="Post Twitter: Cuba en el Consejo de Derechos Humanos">
